@@ -1,0 +1,69 @@
+#box {
+	width:950px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	}
+	
+#infobox {
+	width:925px;
+	background-color:#ffffbe;
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
+	outline-color:#b3b3b3;
+	outline-style:dashed;
+	outline-width:1px;
+	}
+	
+#nav {
+	padding:20px;
+	padding-left:8px;
+	padding-top:10px;
+	padding-bottom:7px;
+	}
+
+a.nav:link,a.nav:visited {	
+	text-decoration: none;
+	color:#000000;
+	background-color:#fff674;
+	padding:5px;
+	margin:-1px;
+	outline: #ce9c35 solid 1px;
+	}
+
+a.nav:hover,a.nav:active{
+	text-decoration: none;
+	background-color:#ffc142;
+	padding:5px;
+	transition: background-color 0.3s, color;
+	-moz-transition: background-color 0.3s, color; 
+	-webkit-transition: background-color 0.5s, color; 
+	-o-transition: background-color 0.3s, color; 
+	transition-timing-function: linear;
+	}
+
+a.nava:link,a.nava:visited {	
+	text-decoration: none;
+	color:#000000;
+	background-color:#ffc142;
+	padding:5px;
+	margin:-1px;
+	outline: #ce9c35 solid 1px;
+	}
+
+a.nava:hover,a.nava:active{
+	text-decoration: none;
+	background-color:#ffc142;
+	padding:5px;
+	transition: background-color 0.3s, color;
+	-moz-transition: background-color 0.3s, color; 
+	-webkit-transition: background-color 0.5s, color; 
+	-o-transition: background-color 0.3s, color; 
+	transition-timing-function: linear;
+	}
+
+a img {
+        border: none;
+      }
